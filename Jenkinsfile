@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Docker-Agent-ssh1' }
+    agent { label 'docker-agent' }
     
     stages{
         stage('code'){
